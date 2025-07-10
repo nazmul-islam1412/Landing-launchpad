@@ -1,28 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+header {
+  width: 100%;
+  height: 30rem;
+  background-image: url('Assets/Hero-bg.png');
+  background-repeat: no-repeat;
+  background-size: cover; 
+  background-position: center; 
+}
+
 .open-sans-normal{
-  font-family: "Open Sans", sans-serif;
+   font-family: 'Raleway', sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
-    width: 91.6667%;
-  max-width: 1280px; /* optional, like Tailwind's max-w-7xl */
+}
+
+
+.container {
+  width: 91.6667%;
+  max-width: 1280px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 20px;
 }
+
 
 .nav1{
     display: flex;
     justify-content: space-between;
+    padding: 2rem;
 }
 .h2{
     color: #4E47FF;
+    font-family: 'Inter', sans-serif;
+
 }
 .btn-primary{
     background-color: #4E47FF;
@@ -37,4 +55,21 @@
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 10px;
+}
+
+.head-part-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 7rem;
+}
+.head-part-2 h2{
+    font-weight: bold;
+    color: #252432;
+    font-size: 50px;
+}
+.btn2{
+    margin-top: 2rem;
 }
