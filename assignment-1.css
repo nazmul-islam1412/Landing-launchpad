@@ -278,7 +278,7 @@ header {
   display: flex;
   justify-content: space-between;
   background: #f6f8ff;
-  padding: 71px;
+  padding: 50px 0;
   border-radius: 10px;
   box-shadow: 0 4px 20px rgba(0,0,0,0.05);
    font-family: 'Inter', sans-serif;
@@ -291,7 +291,7 @@ header {
   font-size: 2.8rem;
   font-weight: bold;
   color: #000;
-  margin-left: 7rem;
+  
 }
 
 .right-side {
