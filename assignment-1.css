@@ -83,7 +83,7 @@ header {
   max-width: 1280px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 7rem;
+  margin-top: 116px;
   gap: 3rem;
 }
 
@@ -128,9 +128,9 @@ header {
   margin-right: auto;
   background-color: #4d47ff16;
   border-radius: 24px;
-  margin-top: 7rem;
+  margin-top: 116px;
 }
-.users h3{
+.users h4{
   color: #252432;
   font-weight: bold;
   font-size: 38px;
@@ -173,4 +173,67 @@ header {
 .satisfaction p{
   color: #00000080;
   font-size: 15px;
+}
+
+/* Comment Section */
+
+.comment-head{
+  text-align: center;
+  font-weight: bold;
+  font-size: 42px;
+  color: #252432;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.main-comment{
+  display: flex;
+  justify-content: space-between;
+   width: 91.6667%;
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ .comment {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 24px;
+  border-radius: 24px;
+  background-color: #ffffff74;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+  padding-right: 150px;
+}
+
+.comment-title{
+  margin-top: 20px;
+}
+
+.comment-title h5{
+  font-family: 'Avenir', sans-serif;
+}
+.comment-title p{
+  font-family: 'Avenir', 'Inter', 'Helvetica Neue', 'Segoe UI', 'Roboto', sans-serif;
+  color: #1E1E1E;
+  
+}
+
+
+.comment-rating{
+  margin-top: 50px;
+}
+
+.comment-reviewer{
+  display: flex;
+  margin-top: 20px;
+}
+
+.comment-reviewer img{
+  border-radius: 9999px;
+}
+
+.reviewer-data{
+    font-family: 'Inter', 'Avenir', 'Helvetica Neue', 'Segoe UI', 'Roboto', sans-serif;
+  color: #757575;
 }
