@@ -381,4 +381,8 @@ header {
   gap: 48px;
   color: #8987A1;
   font-family: 'Inter', sans-serif;
+  
+}
+.list li{
+  cursor: pointer;
 }
