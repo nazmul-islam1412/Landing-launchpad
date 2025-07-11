@@ -215,7 +215,7 @@ header {
   font-family: 'Avenir', sans-serif;
 }
 .comment-title p{
-  font-family: 'Avenir', 'Inter', 'Helvetica Neue', 'Segoe UI', 'Roboto', sans-serif;
+  font-family: 'Inter' sans-serif;
   color: #1E1E1E;
   
 }
@@ -228,6 +228,7 @@ header {
 .comment-reviewer{
   display: flex;
   margin-top: 20px;
+  gap: 5px;
 }
 
 .comment-reviewer img{
@@ -235,7 +236,7 @@ header {
 }
 
 .reviewer-data{
-    font-family: 'Inter', 'Avenir', 'Helvetica Neue', 'Segoe UI', 'Roboto', sans-serif;
+    font-family: 'Inter', sans-serif;
   color: #757575;
 }
 
@@ -267,27 +268,78 @@ header {
 }
 
 /* Form */
-.Form{
-  display: flex;
-  justify-content: space-between;
-   width: 91.6667%;
+
+/* Style for form inputs */
+.contact-container {
+  width: 91.6667%;
   max-width: 1280px;
   margin-left: auto;
   margin-right: auto;
-  padding: 71px;
-  color: #000000;
-  margin-top: 93px;
-}
-.Form h1{
-  font-weight: bold;
-  font-size: 97px;
-}
-form{
   display: flex;
-  justify-content: left;
+  justify-content: space-between;
+  background: #f6f8ff;
+  padding: 71px;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+   font-family: 'Inter', sans-serif;
+}
+
+.left-side {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  font-size: 2.8rem;
+  font-weight: bold;
+  color: #000;
+  margin-left: 7rem;
+}
+
+.right-side {
+  flex: 1;
+  padding-left: 40px;
+  margin-right: 4rem;
+}
+
+.contact-form {
+  display: flex;
   flex-direction: column;
 }
 
-label {
-  font-family: 'Inter', sans-serif;
+.contact-form label {
+  margin-top: 20px;
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #333;
 }
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 14px;
+  width: 100%;
+   font-family: 'Inter', sans-serif;
+}
+
+.contact-form textarea {
+  resize: vertical;
+  min-height: 100px;
+   font-family: 'Inter', sans-serif;
+}
+
+.contact-form button {
+  margin-top: 20px;
+  padding: 12px;
+  background-color: #4f46e5;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #4338ca;
+}
+

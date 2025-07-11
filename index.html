@@ -108,7 +108,9 @@
                </div>
             
             <div class="comment-reviewer">
-                <img src="Assets/avatar.png">
+                <div>
+                    <img src="Assets/avatar.png">
+                </div>
                 <div class="reviewer-data">
                     <h5>Reviewer name</h5>
                     <p>Date</p>
@@ -155,25 +157,35 @@
             </div>
         </section>
 
-        <section>
-            <div class="Form">
-                <h1>Let’s Get in<br>Touch</h1>
-                <form>
-                    <label for="email">Email</label><br>
-                    <input type="email" name="" id="email"><br>
-                    <label for="name">Name</label><br>
-                    <input type="name" id="name"><br>
-                    <label for="massage">Massage</label><br>
-                    <input type="Massage" id="massage"><br>
-                    <button class="btn-primary">Get in Touch</button>
-                </form>
-            </div>
-        </section>
+       <section>
+
+<div class="contact-container">
+    <div class="left-side">
+      <h1>Let’s Get in<br />Touch</h1>
+    </div>
+    <div class="right-side">
+      <form class="contact-form">
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="example@email.com" required />
+
+        <label for="name">Name</label>
+        <input type="text" id="name" placeholder="full name" required />
+
+        <label for="message">Message</label>
+        <textarea id="message" placeholder="Write your message...." required></textarea>
+
+        <button type="submit">Get in Touch</button>
+      </form>
+    </div>
+  </div>
+
+       </section>
 
     </main>
 
     <footer>
         
+
     </footer>
     
 </body>
